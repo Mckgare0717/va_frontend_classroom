@@ -11,4 +11,60 @@
     left: 0;
     right: 0;
     z-index: 999;
+    gap: 50px;
+
+
+    & svg{
+        fill: var(--text-color);
+    }
+}
+
+
+.searchCont{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid var(--text-color);
+    border-radius: 30px;
+
+    & svg{
+        fill: var(--text-color);
+    
+
+    }
+}
+
+.searchCont input{
+    background: none;
+    border: none;
+    width: auto;
+    color: var(--text-color);
+    outline: none;
+}
+
+.mobile-menu-items{
+    display: flex;
+    flex-direction: column;
+    color: var(--text-color);
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.mobile-menu-items a{
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 40px;
+    width: 100%;
+    
+    
+    
+}
+
+.mobile-menu-items a:hover{
+    background-color: var(--secondary-color);
+    
+    padding: 10px;
 }
